@@ -1,0 +1,424 @@
+
+/* Main page background */
+.stApp {
+    background-color: #FFF1F7 !important;
+    color: #831843 !important;
+}
+
+/* Main content spacing */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1100px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #BE185D !important;
+}
+
+/* Paragraphs and labels */
+p, label, .stMarkdown {
+    color: #831843;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #EC4899 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+}
+
+/* Button hover */
+.stButton > button:hover {
+    background-color: #BE185D !important;
+    color: white !important;
+}
+
+/* Text input fields */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #FFFFFF !important;
+    color: #831843 !important;
+    border: 1px solid #F9A8D4 !important;
+    border-radius: 10px !important;
+}
+
+/* Dropdowns and selection boxes */
+.stSelectbox div[data-baseweb="select"] > div {
+    background-color: #FFFFFF;
+    border-color: #F9A8D4;
+    border-radius: 10px;
+}
+
+/* Bordered containers */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-color: #F9A8D4;
+    border-radius: 14px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #FCE7F3;
+}
+
+/* Make text visible on the pink background */
+.stApp,
+.stApp p,
+.stApp label,
+.stApp span,
+.stApp li,
+.stApp div[data-testid="stMarkdownContainer"] {
+    color: #831843;
+}
+
+/* Keep headings dark pink */
+.stApp h1,
+.stApp h2,
+.stApp h3 {
+    color: #BE185D !important;
+}
+
+/* Keep button text white for contrast */
+.stButton > button {
+    background-color: #EC4899 !important;
+    color: #FFFFFF !important;
+}
+
+/* Input text */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    color: #831843 !important;
+    background-color: #FFFFFF !important;
+}
+
+/* 🎀 TECHCONNECT — GEN Z PINK VIBES 🎀 */
+
+/* Pink gradient background */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #fff0f6 0%,
+        #ffe4f1 50%,
+        #fce7ff 100%
+    ) !important;
+    color: #701a45 !important;
+}
+
+/* Cute, spacious layout */
+.block-container {
+    max-width: 1100px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Bold pink headings */
+.stApp h1,
+.stApp h2,
+.stApp h3 {
+    color: #db2777 !important;
+    font-weight: 800 !important;
+}
+
+/* Readable body text */
+.stApp p,
+.stApp label,
+.stApp li,
+.stApp [data-testid="stMarkdownContainer"] {
+    color: #701a45;
+}
+
+/* Funky pink buttons 💖 */
+.stButton > button {
+    background: linear-gradient(135deg, #ff4fa3, #d946ef) !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 16px !important;
+    padding: 0.65rem 1.2rem !important;
+    font-weight: 800 !important;
+    box-shadow: 0 5px 0 #f9a8d4;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Button hover ✨ */
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 0 #f9a8d4;
+    border-color: #ffffff !important;
+}
+
+/* Cute input boxes 💌 */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #ffffff !important;
+    color: #701a45 !important;
+    border: 2px solid #f9a8d4 !important;
+    border-radius: 14px !important;
+}
+
+/* Dropdowns 💫 */
+.stSelectbox div[data-baseweb="select"] > div {
+    background-color: #ffffff !important;
+    color: #701a45 !important;
+    border: 2px solid #f9a8d4 !important;
+    border-radius: 14px !important;
+}
+
+/* Rounded cards 🩷 */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: rgba(255, 255, 255, 0.78);
+    border: 2px solid #fbcfe8;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(219, 39, 119, 0.08);
+}
+
+/* Sidebar aesthetic 🎀 */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #fce7f3,
+        #f5d0fe
+    ) !important;
+}
+
+/* Pink selection accents 💗 */
+.stCheckbox label,
+.stRadio label {
+    color: #701a45 !important;
+}
+
+/* Pink links ✨ */
+.stApp a {
+    color: #db2777 !important;
+    font-weight: 700;
+}
+
+/* Pink progress bars 💖 */
+.stProgress > div > div {
+    background-color: #ec4899 !important;
+}
+
+/* 🎀 FUNKY TECHCONNECT THEME 🎀 */
+
+/* Main pink background */
+.stApp {
+    background: linear-gradient(135deg, #fff0f6, #fce7f3, #f5d0fe) !important;
+}
+
+/* Main title */
+.stApp h1 {
+    color: #db2777 !important;
+    font-weight: 900 !important;
+    text-shadow: 2px 2px #fbcfe8;
+}
+
+/* Section headings */
+.stApp h2,
+.stApp h3 {
+    color: #be185d !important;
+    font-weight: 800 !important;
+}
+
+/* Visible, readable text */
+.stApp p,
+.stApp label,
+.stApp [data-testid="stMarkdownContainer"] {
+    color: #831843;
+}
+
+/* Pink buttons */
+.stButton button,
+.stFormSubmitButton button {
+    background: linear-gradient(135deg, #ff4fa3, #c026d3) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 18px !important;
+    font-weight: bold !important;
+    padding: 12px 20px !important;
+    box-shadow: 0 5px 0 #f9a8d4 !important;
+}
+
+/* White, rounded input fields */
+.stTextInput input,
+.stTextArea textarea,
+.stNumberInput input {
+    background-color: white !important;
+    color: #831843 !important;
+    border: 2px solid #f9a8d4 !important;
+    border-radius: 14px !important;
+}
+
+/* Give Streamlit cards a pink outline */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: #ffffff !important;
+    border: 2px solid #f9a8d4 !important;
+    border-radius: 20px !important;
+    padding: 12px !important;
+    box-shadow: 0 6px 18px rgba(219, 39, 119, 0.12) !important;
+}
+
+/* Pink sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #fce7f3 !important;
+}
+
+/* 💗 Student match cards */
+.match-card {
+    background: linear-gradient(135deg, #ffffff, #fff0f7);
+    border: 2px solid #f9a8d4;
+    border-radius: 22px;
+    padding: 20px;
+    margin: 14px 0;
+    box-shadow: 0 8px 20px rgba(219, 39, 119, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.match-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(219, 39, 119, 0.2);
+}
+
+.match-name {
+    color: #be185d;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.match-badge {
+    display: inline-block;
+    background: #fce7f3;
+    color: #be185d;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-weight: 800;
+    margin: 8px 0;
+}
+
+.match-skills {
+    color: #831843;
+    font-size: 0.95rem;
+}
+
+.match-bar-bg {
+    height: 12px;
+    background: #fbcfe8;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.match-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ec4899, #c026d3);
+    border-radius: 999px;
+}
+
+/* 💖 Extra styling for teammate cards */
+.stApp [data-testid="stVerticalBlockBorderWrapper"] {
+    background: linear-gradient(135deg, #ffffff, #fff0f7) !important;
+    border: 2px solid #f9a8d4 !important;
+    border-radius: 22px !important;
+    box-shadow: 0 8px 22px rgba(219, 39, 119, 0.12);
+}
+
+/* Vibe-match badge */
+.match-badge {
+    display: inline-block;
+    background: #fce7f3;
+    color: #9d174d !important;
+    border: 1px solid #f9a8d4;
+    border-radius: 999px;
+    padding: 7px 13px;
+    margin: 8px 0;
+    font-weight: 800;
+}
+
+/* Compatibility bar */
+.match-bar-bg {
+    height: 12px;
+    width: 100%;
+    background: #fbcfe8;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 8px 0 14px;
+}
+
+.match-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ec4899, #c026d3);
+    border-radius: 999px;
+    transition: width 0.5s ease;
+}
+
+/* 💖 Gen-Z teammate cards */
+.match-card {
+    background: linear-gradient(135deg, #ffffff, #fff0f7);
+    border: 2px solid #f9a8d4;
+    border-radius: 22px;
+    padding: 22px;
+    margin: 16px 0;
+    box-shadow: 0 8px 22px rgba(219, 39, 119, 0.12);
+}
+
+.match-name {
+    color: #be185d;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.match-badge {
+    display: inline-block;
+    background: #fce7f3;
+    color: #be185d;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.match-bar-bg {
+    background: #fbcfe8;
+    height: 12px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.match-bar-fill {
+    height: 12px;
+    background: linear-gradient(90deg, #ec4899, #c026d3);
+    border-radius: 20px;
+}
+
+/* TechConnect team section */
+div[data-testid="stTabs"] button {
+    font-weight: 600;
+}
+
+div[data-testid="stForm"] {
+    border: 1px solid #ff8acb;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+div[data-testid="stProgressBar"] > div > div {
+    background-color: #ff69b4;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Project generator polish */
+div[data-testid="stExpander"] {
+    border: 1px solid #ff8acb;
+    border-radius: 14px;
+}
+
+div[data-testid="stForm"] button {
+    font-weight: 600;
+}
