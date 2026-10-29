@@ -440,14 +440,6 @@ else:
                     f"🎉 Team '{team_name.strip()}' created successfully!"
                 )
 
-
-
-            st.session_state["next_team_id"] += 1
-
-            st.success(
-                    f"🎉 Team '{team_name.strip()}' created successfully!"
-                )
-
     # 2. EXPLORE AND JOIN TEAMS
     with explore_tab:
         st.subheader("💫 Discover your next team")
